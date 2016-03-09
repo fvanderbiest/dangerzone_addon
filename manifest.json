@@ -1,0 +1,45 @@
+{
+    "js": [
+        "js/WPS_Utils.js",
+        "js/main.js",
+        "../../../lib/proj4js/lib/proj4js-combined.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WCSGetCoverage.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WPSExecute.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/WPSClient.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/WPSProcess.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Strategy/BBOX.js"
+    ],
+    "css": [
+        "css/dangerzone.css"
+    ],
+    "default_options": {
+        "mode": "static",
+        "showintoolmenu": true        
+    },
+    "i18n": {
+        "en": {
+               "dangerzone.workspace": "Workspace",
+               "dangerzone.layername": "Layer name",
+               "dangerzone.distance":"Distance",
+               "dangerzone.attributeName": "Attribute Name",
+               "dangerzone.submit": "Validate",
+               "dangerzone.warning.message": "You should fill the layer name and workspace fields",
+               "dangerzone.secondlayer": "Second layer:",
+               "dangerzone.firstlayer": "First layer:",
+               "dangerzone.layersprojection": "Layers projection:",
+               "dangerzone.layersprojection.label": "Projection"
+              },
+        "fr": {
+               "dangerzone.workspace": "Espace de travail",
+               "dangerzone.layername": "Nom de la couche",
+               "dangerzone.distance": "Distance",
+               "dangerzone.attributeName": "Nom de l'attribut",
+               "dangerzone.submit": "Valider",
+               "dangerzone.warning.message": "Vous devez remplir Les champs couche et espace de travail.",
+               "dangerzone.secondlayer": "Deuxième couche:",
+               "dangerzone.firstlayer": "Première couche:",
+               "dangerzone.layersprojection": "Projection des couches:",
+               "dangerzone.layersprojection.label": "Projection"
+              }
+    }
+}
